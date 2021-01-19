@@ -9,7 +9,7 @@ body {
   margin: 0;
 }
 .header {
-  background-image: linear-gradient(#06365f,#ffffff);
+  background-image: linear-gradient(#335979,#06365f);
   height: 12rem;
   display: flex;
   flex-direction: row;
@@ -21,9 +21,6 @@ main {
   flex-direction: column;
   text-align: left;
   width: 650px;
-  background-size: 700px ;
-  background-repeat: no-repeat;
-  padding: 25px;
 }
 button {
   background-color:#3f7daf;
@@ -31,8 +28,20 @@ button {
   font-family: Arial, Helvetica, sans-serif;
   margin: 20px;
 }
+.imageminit
+{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+;
+}
 .text {
   background-image: url("../images/frame.png");
+  background-size: 650px ;
+  background-repeat: no-repeat;
+  
+  background-size: 650px;
+  padding: 25px;
 }
 .os {
   display: inline-flex;
@@ -40,12 +49,11 @@ button {
   width: 400px;
 }
 footer {
-  text-align: center;
   color: #06365f;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   text-transform: uppercase;
-  position: fixed;
-  bottom: 0px;
-  text-align: center;
+  display: flex;
+ justify-content: center;
+ margin-top: 400px;
 }
